@@ -1,0 +1,52 @@
+
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+html{
+  font-size: 1rem;
+}
+.custom-navbar{
+  position: fixed;
+  height: 3.5rem;
+  width: 100%;
+  background-color: black;
+  padding: 0;
+  margin-bottom: 3rem;
+  z-index: 2;
+}
+
+.custom-navbar::after{
+  background: inherit;
+  top: 100%;
+  content: '';
+  display: block;
+  height: 7vw;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 100%;
+  z-index: auto;
+}
+
+.custom-navbar-vertical{
+  position: fixed;
+  height: 100%;
+  width: 10rem;
+  background-color: grey;
+  z-index: 1;
+}
+
+.custom-navbar-vertical::after{
+  background-color: inherit;
+  position: absolute;
+  transform: skewX(-1.8deg);
+  transform-origin: 0%;
+  left: 80%;
+  content: "";
+  width: 7vw;
+  height: 100%;
+  z-index: 2;
+
+}

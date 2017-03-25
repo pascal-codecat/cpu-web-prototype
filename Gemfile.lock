@@ -225,7 +225,6 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-livereload
-  minima (~> 2.0)
   tzinfo-data
 
 RUBY VERSION
